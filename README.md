@@ -106,10 +106,82 @@ This project is an end-to-end data analysis solution designed to extract critica
 
 ## Results and Insights
 
-This section will include your analysis findings:
-- **Sales Insights**: Key categories, branches with highest sales, and preferred payment methods.
-- **Profitability**: Insights into the most profitable product categories and locations.
-- **Customer Behavior**: Trends in ratings, payment preferences, and peak shopping hours.
+### 💳 Payment Method Analysis (Q1 & Q4)
+| Payment Method | Transactions |
+|---------------|-------------|
+| Credit Card | 4,256 |
+| Ewallet | 3,881 |
+| Cash | 1,832 |
+
+- **Credit Card** is most preferred with 4,256 transactions (42.6%)
+- **Cash** is least preferred — only 1,832 transactions (18.4%)
+- Recommendation: Prioritize digital payment infrastructure
+
+### ⭐ Category Ratings by Branch (Q2)
+- Each branch shows different top-rated categories
+- Rating analysis identifies customer satisfaction drivers 
+  per location
+
+### 📅 Busiest Days by Branch (Q3)
+- Each branch has a distinct peak trading day
+- Weekend transactions significantly higher than weekdays
+
+### 🏙️ City & Category Rating Analysis (Q5)
+- Rating variance analyzed across all cities and categories
+- Identifies underperforming locations for targeted improvement
+
+### 💰 Top Profitable Categories (Q6)
+| Category | Total Profit |
+|----------|-------------|
+| Fashion Accessories | $192,314.89 |
+| Home and Lifestyle | $192,213.64 |
+| Electronic Accessories | $30,772.49 |
+
+- **Fashion Accessories** most profitable at $192,314.89
+- **Home and Lifestyle** closely follows at $192,213.64
+- **Electronic Accessories** significantly lower at $30,772.49
+
+### 🏪 Preferred Payment by Branch (Q7)
+- Credit Card dominates across most branches
+- Branch-level preferences guide targeted promotions
+
+### ⏰ Sales Shift Analysis (Q8)
+| Shift | Transactions |
+|-------|-------------|
+| Afternoon | 4,636 |
+| Evening | 3,246 |
+| Morning | 2,087 |
+
+- **Afternoon** is peak period with 4,636 transactions
+- **Morning** is slowest with only 2,087 transactions
+- Staffing should be optimized for afternoon operations
+
+### 📉 Top 5 Branches with Revenue Decline (Q9)
+| Branch | 2022 Revenue | 2023 Revenue | Decrease % |
+|--------|-------------|-------------|------------|
+| WALM045 | $1,731 | $647 | 62.62% |
+| WALM047 | $2,581 | $1,069 | 58.58% |
+| WALM098 | $2,446 | $1,030 | 57.89% |
+| WALM033 | $2,099 | $931 | 55.65% |
+| WALM081 | $1,723 | $850 | 50.67% |
+
+- **WALM045** showed highest decline of **62.62%**
+- All 5 branches declined by more than **50%**
+- Immediate intervention required for these locations
+
+---
+
+## 🔑 Key Business Recommendations
+1. **Push Credit Card & Ewallet** — 81% prefer digital 
+   payments, reduce cash handling costs
+2. **Optimize afternoon staffing** — peak period with 
+   4,636 transactions needs adequate resources  
+3. **Invest in Fashion Accessories** — highest profit 
+   at $192,314.89
+4. **Investigate Electronic Accessories** — significant 
+   profit gap vs top categories
+5. **Urgent intervention for WALM045** — 62.62% revenue 
+   decline is critical business risk
 
 ## Future Enhancements
 
